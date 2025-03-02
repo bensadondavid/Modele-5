@@ -13,9 +13,11 @@ function Entry(){
             <p className="bsd">בס"ד</p>
             <div className="fleurs-entry">
                 <img src="fleur-m5-droite.png" className='fleur-entry-droite' />
-                <img src="logo-m5.png" className='logo-m5-entry' />
+                <div className="logo-date-entry">
+                    <img src="logo-m5.png" className='logo-m5-entry' />
+                    <p className='entry-date'>03 . 06 . 2024</p>
+                </div>
                 <img src="fleur-m5-gauche.png" className='fleur-entry-gauche' />
-                <p className='entry-date'>03 . 06 . 2024</p>
             </div>
             <CountDown />
             <Link to='/home' className='invit-link'>Voir l'invitation</Link>

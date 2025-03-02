@@ -78,10 +78,14 @@
     transform: translateY(-50px);
 }
 
+.logo-date-entry{
+    display: flex;
+    flex-direction: column;
+}
 
 .logo-m5-entry{
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
     margin: auto;
 }
 
@@ -103,7 +107,7 @@
 .countdown{
     width: 90%;
     height: fit-content;
-    margin: 0 auto;
+    margin: 0px auto 80px auto;
     color: #183C28;
     font-family: "Cormorant Garamond", serif;
     font-weight: lighter;
