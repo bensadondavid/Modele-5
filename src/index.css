@@ -53,7 +53,7 @@
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
-    color: #183C28;
+    color: #292B2D;
 }
 
 .fleurs-entry{
@@ -84,14 +84,14 @@
 }
 
 .logo-m5-entry{
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     margin: auto;
 }
 
 .entry-date{
     font-family: "Cormorant Garamond", serif;
-    color: #183C28;
+    color: #292B2D;
     font-size: large;
     height: fit-content;
     text-align: center;
@@ -108,7 +108,7 @@
     width: 90%;
     height: fit-content;
     margin: 0px auto 80px auto;
-    color: #183C28;
+    color: #292B2D;
     font-family: "Cormorant Garamond", serif;
     font-weight: lighter;
     display: flex;
@@ -131,13 +131,13 @@
 }
 
 .invit-link {
-    color: #183C28 ;
+    color: #292B2D ;
     font-family: "Great Vibes", serif;
     font-size: 50px;
     text-decoration: none;
     height: fit-content;
     margin-bottom: 30px;
-    transform: translateY(-50px);
+    transform: translateY(-20px);
 }
 
 
