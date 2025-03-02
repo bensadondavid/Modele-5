@@ -15,9 +15,9 @@ function Mairie(){
                     <img src="fleur-m5-gauche.png" className='fleur-title-gauche' />
                 </div>
                     <div className="noms">
-                        <h1 className='nom-1'>Yael</h1>
+                        <h1 className='nom-1'>YAEL</h1>
                         <h1 className='and'>&</h1>
-                        <h1 className='nom-2'>Levy</h1>
+                        <h1 className='nom-2'>LEVY</h1>
                     </div>
                     <p className='text'>Se diront</p>
                     <h2 className='oui'>"Oui"</h2>

@@ -28,9 +28,9 @@ function Houppa(){
                 </div>
                 <p className='houppa-text'>Ont la joie de vous faire part du mariage de leurs petits enfants et enfants</p>
                 <div className="noms">
-                    <h1 className='nom-1'>Yael</h1>
+                    <h1 className='nom-1'>YAEL</h1>
                     <h1 className='and'>&</h1>
-                    <h1 className='nom-2'>Levy</h1>
+                    <h1 className='nom-2'>LEVY</h1>
                 </div>
                 <p className='houppa-text'>et vous prient de bien vouloir assister a la houppa ainsi qu’a la soiree  qui aura lieu le</p>
                 <p className='date'>Lundi 3 juin 2024 <br />כו’באייר תשפה <br />A partir de 18h00   </p>

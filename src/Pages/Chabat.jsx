@@ -15,9 +15,9 @@ function Chabat(){
                     <img src="fleur-m5-gauche.png" className='fleur-title-gauche' />
                 </div>
                 <div className="noms">
-                    <h1 className='nom-1'>Yael</h1>
+                    <h1 className='nom-1'>YAEL</h1>
                     <h1 className='and'>&</h1>
-                    <h1 className='nom-2'>Levy</h1>
+                    <h1 className='nom-2'>LEVY</h1>
                 </div>
                 <p className='text'>Seront ravis de partager leur chabat hatan avec vous </p>
                 <p className='date'>Le vendredi 8 <br /> et samedi 9 juin 2024</p>
