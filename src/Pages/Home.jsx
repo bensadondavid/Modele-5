@@ -16,19 +16,12 @@ function Home(){
 
         <div className="home">
             <p className='bsd'>בס"ד</p>
-            <img src="logo-y-l.png" className='logo-home' />
-            <img src="fleurs-separation.png" className='fleurs-separation' />
             <Musique />
             <Mairie />
-            <img src="fleurs-separation.png" className='fleurs-separation' />
             <Henne />
-            <img src="fleurs-separation.png" className='fleurs-separation' />
             <Houppa />
-            <img src="fleurs-separation.png" className='fleurs-separation' />
             <Chabat />
-            <img src="fleurs-separation.png" className='fleurs-separation' />
             <Response />
-            <img src="fleurs-vertes-bas.png" className='fleurs-bas' />
         </div>
 
     )

@@ -9,10 +9,13 @@ function Houppa(){
 
     return(
             <>
-            <img src="kol-sasson-vert.png" className='kol-sasson-vert' />
             <div className="card">
-                <h1 className='title'>Houppa</h1>
-                <img src="logo-y-l.png" className='logo-petit'/>
+            <div className="fleurs-title">
+                    <img src="fleur-m5-droite.png" className='fleur-title-droite' />
+                    <h1 className='title'>La Houppa</h1>
+                    <img src="fleur-m5-gauche.png" className='fleur-title-gauche' />
+                </div>
+                <img src="kol-sasson-gris.png" className='kol-sasson' />
                 <div className="parents">
                     <div className="parents-fille">
                         <p>Mr et Mme John Doe</p>
@@ -33,8 +36,8 @@ function Houppa(){
                 <p className='date'>Lundi 3 juin 2024 <br />כו’באייר תשפה <br />A partir de 18h00   </p>
                 <p className='endroit'>A la salle Emeralde Garden <br /> Park Taassit Shourak, Beth Shemesh </p>
                 <p className="pensee">"Une tendre pensée pour nos grands parents toujours presents dans nos coeurs"</p>
-                <Waze name={'waze'} lat={48.8525} long={2.3372} iconWidth='18px' iconHeight='25px' iconColor='#183C28' />
-                <SaveTheDate name={'save-the-date'} date={[2024, 6, 3, 12, 0]} iconColor='#183C28' iconHeight='18px' iconWidth='21px'/>
+                <Waze name={'waze'} lat={48.8525} long={2.3372} iconWidth='18px' iconHeight='25px' iconColor='#292B2D' />
+                <SaveTheDate name={'save-the-date'} date={[2024, 6, 3, 12, 0]} iconColor='#292B2D' iconHeight='18px' iconWidth='21px'/>
             </div>
         </>
     )

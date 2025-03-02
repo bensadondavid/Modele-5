@@ -9,8 +9,11 @@ function Response(){
     return(
             <>
                 <div className="response-title">
-                    <h1>Réponse</h1>
-                    <img src="logo-y-l.png" className='logo-petit'/>
+                    <div className="fleurs-title">
+                        <img src="fleur-m5-droite.png" className='fleur-title-droite' />
+                        <h1 className='title'>Réponse</h1>
+                        <img src="fleur-m5-gauche.png" className='fleur-title-gauche' />
+                    </div>
                 </div>
                 <Form />
             </>
