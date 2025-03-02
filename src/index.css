@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#loom-companion-mv3, #shadow-host-companion {
+    display: none !important;
+}
+
+/* Too Big */
+
+.too-big{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/fond-vert.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.too-big h1{
+    height: fit-content;
+    font-family: 'Amsterdam', sans-serif;
+    text-align: center;
+    color: #0B4022;
+}
+
+
+/* Entry */
+
+.entry{
+    height: 100%;
+    width: 100%;
+    background-image: url('/fond-vert.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bsd{
+    height: fit-content;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #183C28;
+}
+
+.logo-entry{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.logo-y-l-entry{
+    height: 100px;
+    width: 100px;
+}
+
+.entry-date{
+    font-family: "Cormorant Garamond", serif;
+    color: #183C28;
+    font-size: x-large;
+}
+
+@font-face {
+    font-family: 'Amsterdam';
+    src: url('./assets/fonts/amsterdam_4/amsterdam-four.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.entry-noms, .and{
+    width: 100%;
+    height: fit-content;
+    font-family: 'Amsterdam', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #183C28;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.countdown{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    color: #183C28;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time{
+    text-align: center;
+    font-size: x-large;
+    background-color: transparent;
+    border-radius: 28px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.invit-link {
+    color: #183C28 ;
+    font-family: "Cormorant Garamond", serif;
+    font-size: x-large;
+    text-decoration: none;
+    height: fit-content;
+    transform: translateY(20px);
+}
+
+.fleurs-entry{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.fleur-entry-gauche, .fleur-entry-droite{
+    width: 100px;
+    height: 100px;
+}
+
+/* Home */
+
+.home{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('/fond-vert.png');
+    background-size: cover;
+}
+
+.logo-home{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    transform: translateY(30px);
+}
+
+.fleurs-separation{
+    height: 300px;
+    width: 100%;
+}
+
+.musique button{
+    height: 40px;
+    width: 40px;
+    border: solid  #183C28 1px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.logo-petit{
+    width: 40px;
+    height: 40px;
+}
+
+/* Card */
+
+.card{
+    height: fit-content;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-10%);
+}
+
+.title{
+    height: fit-content;
+    color: #183C28;
+    font-family: 'Amsterdam', sans-serif;
+    font-weight: 400;
+    text-shadow: 4px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.noms{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nom-1, .nom-2, .and{
+    width: 100%;
+    height: fit-content;
+    font-family: 'Amsterdam', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #183C28;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+}
+
+.and{
+    transform: translateX(10px);
+}
+
+.text{
+    margin: 40px auto auto auto;
+    font-family: "Antic Didone", serif;
+    color: #183C28;
+    height: fit-content;
+    width: 80%;
+    text-align: center;
+}
+
+.oui{
+    margin: 10px auto auto auto;
+    font-family: "Antic Didone", serif;
+    font-size: 30px;
+    color: #183C28;
+    height: fit-content;
+}
+
+.date{
+    height: fit-content;
+    margin: 40px auto auto auto;
+    font-family: "Antic Didone", serif;
+    color: #183C28;
+    font-size: 20px;
+    text-align: center;
+}
+
+.endroit{
+    height: fit-content;
+    margin: 40px auto auto auto;
+    font-family: "Antic Didone", serif;
+    color: #183C28;
+    text-align: center;
+    width: 80%;
+}
+
+.suite{
+    height: fit-content;
+    width: 60%;
+    text-align: center;
+    margin: 40px auto auto auto;
+    font-family: "Antic Didone", serif;
+    color: #183C28;
+}
+
+.waze{
+    margin: 30px auto auto auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.waze .waze-link{
+    color: #183C28;
+    font-family: "Antic Didone", serif;
+    font-style: italic;
+}
+
+.save-the-date{
+    margin: 10px auto auto auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.save-the-date .save-the-date-link{
+    color: #183C28;
+    font-family: "Antic Didone", serif;
+    font-style: italic;
+}
+
+
+/* Houppa */
+
+.kol-sasson-vert{
+    height: 110px ;
+    width: 90%;
+}
+
+.parents{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px auto 10px auto;
+}
+
+.parents-fille{
+    font-family: "Antic Didone", serif;
+    font-size: small;
+}
+
+.parents-garcon{
+    font-family: "Antic Didone", serif;
+    font-size: small;
+}
+
+
+.houppa-text{
+    width: 80%;
+    font-family: "Antic Didone", serif;
+    text-align: center;
+    color: #271A11;
+    margin: 20px auto auto auto;
+}
+
+
+.pensee{
+    margin: 20px auto auto auto;
+    font-family: "Antic Didone", serif;
+    text-align: center;
+    color: #271A11;
+    font-style: italic;
+    text-align: center;
+    width: 80%;
+}
+
+/* Response */
+
+.response-title{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    color: #183C28;
+    font-family: 'Amsterdam', sans-serif;
+    font-weight: 400;
+    text-shadow: 4px 0 4px rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+}
+
+/* Form */
+
+form{
+    height: fit-content;
+    width: 100%;
+    font-family: "Antic Didone", serif;
+    color: #183C28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin: auto;
+    transform: translateY(-10%);
+}
+
+label{
+    margin: 10px 0 10px 20px;
+}
+
+.nom, .prenom, .person-number{
+    width: 85%;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(11, 64, 34,0.6);
+    border-top-left-radius: 50% 170px;
+    border-top-right-radius: 50% 170px;
+    border-bottom-left-radius: 50% 170px;
+    border-bottom-right-radius: 50% 170px;
+    margin-top: 5px;
+}
+
+.label-textarea{
+    margin-left: 20px;
+}
+
+input[type = radio]{
+    margin-right: 10px;
+}
+
+.square-checkbox {
+    appearance: none; /* Supprime l'apparence par défaut */
+    height: 15px;
+    width: 15px;
+    background-color: transparent; /* Couleur de fond */
+    border: 1px solid #0B4022; /* Bordure noire */
+    border-radius: 50%; /* Pas de bordure arrondie pour un effet carré */
+    cursor: pointer;
+    position: relative; /* Nécessaire pour positionner la flèche */
+    margin-left: 10px;
+}
+
+.square-checkbox:checked::after {
+    content: ''; /* Pseudo-élément pour la flèche */
+    position: absolute;
+    top: 2px; /* Position verticale */
+    left: 4px; /* Position horizontale */
+    width: 3px; /* Largeur de la flèche */
+    height: 5px; /* Hauteur de la flèche */
+    border: solid #0B4022; /* Couleur de la flèche */
+    border-width: 0 2px 2px 0; /* Taille des lignes de la flèche */
+    transform: rotate(45deg); /* Inclinaison pour créer une flèche */
+}
+
+textarea{
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(11, 64, 34,0.6);
+    border: none;
+    border-top-left-radius: 50% 170px;
+    border-top-right-radius: 50% 170px;
+    border-bottom-left-radius: 50% 170px;
+    border-bottom-right-radius: 50% 170px;
+    margin-left: 15px;
+}
+
+.submit-button{
+    height: 40px;
+    width: 170px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(11, 64, 34,0.6);
+    color: #183C28;
+    font-family: "Antic Didone", serif;
+    letter-spacing: 2px;
+}
+
+/* Presence */
+
+.presence{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.present{
+    display: flex;
+    flex-direction: column;
+}
+
+.present input{
+    margin-right: 10px; 
+}
+
+.present .square-checkbox{
+    margin-left: 25px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.fleurs-bas{
+    height: 150px;
+    width: 100%;
+}
