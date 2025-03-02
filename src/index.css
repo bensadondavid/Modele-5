@@ -133,11 +133,11 @@
 .invit-link {
     color: #292B2D ;
     font-family: "Great Vibes", serif;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     height: fit-content;
     margin-bottom: 30px;
-    transform: translateY(-20px);
+    transform: translateY(-35px);
 }
 
 
