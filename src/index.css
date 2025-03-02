@@ -70,12 +70,10 @@
 
 .fleur-entry-droite{
     align-self: flex-end;
-    transform: translateY(70px);
 }
 
 .fleur-entry-gauche{
     align-self: start;
-    transform: translateY(-70px);
 }
 
 
@@ -91,7 +89,6 @@
     font-size: large;
     height: fit-content;
     text-align: center;
-    transform: translateY(-50px);
 }
 
 @font-face {
@@ -112,7 +109,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    transform: translateY(-70px);
 }
 
 .time{
