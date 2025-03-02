@@ -36,12 +36,12 @@
 .entry{
     height: 100%;
     width: 100%;
-    background-image: url('/fond-vert.png');
+    background-image: url('/fond-m5.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -56,26 +56,42 @@
     color: #183C28;
 }
 
-.logo-entry{
+.fleurs-entry{
     height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    gap: 10px;
 }
 
-.logo-y-l-entry{
-    height: 100px;
-    width: 100px;
+.fleur-entry-gauche, .fleur-entry-droite{
+    height: 150px;
+    width: 250px;
+}
+
+.fleur-entry-droite{
+    align-self: flex-end;
+    transform: translateY(70px);
+}
+
+.fleur-entry-gauche{
+    align-self: start;
+    transform: translateY(-70px);
+}
+
+
+.logo-m5-entry{
+    height: 250px;
+    width: 250px;
+    margin: auto;
 }
 
 .entry-date{
     font-family: "Cormorant Garamond", serif;
     color: #183C28;
-    font-size: x-large;
+    font-size: large;
+    height: fit-content;
+    text-align: center;
+    transform: translateY(-50px);
 }
 
 @font-face {
@@ -85,17 +101,6 @@
     font-style: normal;
 }
 
-.entry-noms, .and{
-    width: 100%;
-    height: fit-content;
-    font-family: 'Amsterdam', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    color: #183C28;
-    text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
-    font-weight: 400;
-    margin: 30px 0;
-}
 
 .countdown{
     width: 90%;
@@ -108,6 +113,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    transform: translateY(-70px);
 }
 
 .time{
@@ -125,26 +131,15 @@
 
 .invit-link {
     color: #183C28 ;
-    font-family: "Cormorant Garamond", serif;
-    font-size: x-large;
+    font-family: "Great Vibes", serif;
+    font-size: 50px;
     text-decoration: none;
     height: fit-content;
-    transform: translateY(20px);
+    margin-bottom: 30px;
+    transform: translateY(-50px);
 }
 
-.fleurs-entry{
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
-}
 
-.fleur-entry-gauche, .fleur-entry-droite{
-    width: 100px;
-    height: 100px;
-}
 
 /* Home */
 
