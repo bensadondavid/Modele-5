@@ -26,13 +26,13 @@ function Houppa(){
                         <p>Mr et Mme John Doe</p>
                     </div>
                 </div>
-                <p className='houppa-text'>Ont la joie de vous faire part du mariage de leurs petits enfants et enfants</p>
+                <p className='houppa-text1'>Ont la joie de vous faire part du mariage de leurs petits enfants et enfants</p>
                 <div className="noms">
                     <h1 className='nom-1'>YAEL</h1>
                     <h1 className='and'>&</h1>
                     <h1 className='nom-2'>LEVY</h1>
                 </div>
-                <p className='houppa-text'>et vous prient de bien vouloir assister a la houppa ainsi qu’a la soiree  qui aura lieu le</p>
+                <p className='houppa-text2'>et vous prient de bien vouloir assister a la houppa ainsi qu’a la soiree  qui aura lieu le</p>
                 <p className='date'>Lundi 3 juin 2024 <br />כו’באייר תשפה <br />A partir de 18h00   </p>
                 <p className='endroit'>A la salle Emeralde Garden <br /> Park Taassit Shourak, Beth Shemesh </p>
                 <p className="pensee">"Une tendre pensée pour nos grands parents toujours presents dans nos coeurs"</p>

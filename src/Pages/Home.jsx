@@ -22,6 +22,8 @@ function Home(){
             <Houppa />
             <Chabat />
             <Response />
+            <img src="fleur-m5-droite.png" className='fleur-bas' />
+            <p className='noms-bas'>YAEL <span className='and-bas'>&</span> LEVY</p>
         </div>
 
     )
