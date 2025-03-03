@@ -15,13 +15,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Burgues';
-    src: url('./assets/fonts/burgues-script.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Too Big */
 
 .too-big{
@@ -143,7 +136,7 @@
 
 .invit-link {
     color: #292B2D ;
-    font-family: "Burgues", serif;
+    font-family: "Italianno", serif;
     letter-spacing: 2px;
     font-size: 40px;
     text-decoration: none;
@@ -234,7 +227,7 @@
 
 .fleurs-title .title{
     align-self: center;
-    font-family: 'Burgues', serif;
+    font-family: "Italianno", serif;
     letter-spacing: 2px;
 }
 
